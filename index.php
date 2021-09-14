@@ -1,4 +1,3 @@
-CRUD php pg 
 <?php 
 
 $contraseña = "";
