@@ -1,5 +1,5 @@
 <?php 
-
+/*
 $contraseña = "";
 $usuario = "";
 $nombreBaseDeDatos = "";
@@ -13,7 +13,7 @@ try {
 } catch (Exception $e) {
     echo "Ocurrió un error con la base de datos: " . $e->getMessage();
 }
-
+*/
 ?>
 
 <div class="row">
