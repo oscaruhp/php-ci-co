@@ -35,7 +35,7 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
-    - name: PHPUnit tests
+    - name: Test con php - PHPUnit tests
       uses: php-actions/phpunit@v3
       with:
         configuration: phpunit.xml
