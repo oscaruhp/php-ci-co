@@ -20,6 +20,9 @@ if($_POST){
     <title>Calculadora simple de Suma </title>
 </head>
 <body>
+
+	<h2> Bienvenido grupo 10B </h2>
+
     <form action="" method="post">
         
     <div class="mb-3">
