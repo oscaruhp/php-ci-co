@@ -9,7 +9,7 @@ class CalcTest extends TestCase
     {
         $calc = new Calc();
         $result = $calc->sum(1, 2);
-        $this->assertEquals(4, $result);
+        $this->assertEquals(3, $result);
     }
 }
 ?>
