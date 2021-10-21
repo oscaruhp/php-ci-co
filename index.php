@@ -1,35 +1,39 @@
 <?php 
-/*
-$contraseña = "";
-$usuario = "";
-$nombreBaseDeDatos = "";
-# Puede ser 127.0.0.1 o el nombre de tu equipo; o la IP de un servidor remoto
-$rutaServidor = "ec2-54-81-126-150.compute-1.amazonaws.com";
-$puerto = "5432";
-try {
-    $base_de_datos = new PDO("pgsql:host=$rutaServidor;port=$puerto;dbname=$nombreBaseDeDatos", $usuario, $contraseña);
-    $base_de_datos->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Conectado a heroku postgresql";
-} catch (Exception $e) {
-    echo "Ocurrió un error con la base de datos: " . $e->getMessage();
+use App\Classes\Calc;
+if($_POST){
+$calc = new Calc();
+$result = $calc->sum(1, 2);
+echo "El resultado es:".$result;
 }
-*/
 ?>
-Hola Mtra. Mirian
-<div class="row">
-	<div class="col-12">
-		<h1>Agregar</h1>
-		<form action="insertar.php" method="POST">
-			<div class="form-group">
-				<label for="nombre">Nombre</label>
-				<input required name="nombre" type="text" id="nombre" placeholder="Nombre de mascota" class="form-control">
-			</div>
-			<div class="form-group">
-				<label for="edad">Edad</label>
-				<input required name="edad" type="number" id="edad" placeholder="Edad de mascota" class="form-control">
-			</div>
-			<button type="submit" class="btn btn-success">Guardar</button>
-			<a href="./listar.php" class="btn btn-warning">Ver todas</a>
-		</form>
-	</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        
+    <div class="mb-3">
+      <label for="" class="form-label">Valor A:</label>
+      <input type="text"
+        class="form-control" name="valora" id="valora" aria-describedby="helpId" placeholder="Valor A">
+      
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Valor B:</label>
+      <input type="text"
+        class="form-control" name="valora" id="valorb" aria-describedby="helpId" placeholder="Valor B">
+      
+    </div>
+    
+    <input name="" id="" class="btn btn-danger" type="button" value="Sumar">
+
+    </form>    
+
+
+</body>
+</html>
