@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Oscaruh\\Crudmvc\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [
