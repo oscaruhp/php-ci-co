@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Calc;
+use App\Classes\Calc;
 
 class CalcTest extends TestCase
 {
