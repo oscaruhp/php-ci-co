@@ -4,7 +4,6 @@ if($_POST){
 $calc = new Calc();
 $result = $calc->sum(1, 2);
 echo "El resultado es:".$result;
-
 }
 ?>
 <!DOCTYPE html>
