@@ -6,7 +6,7 @@ if($_POST){
 
     $calc = new Calc();
     $result = $calc->sum(1, 2);
-    echo "El resultado de la suma es de:".$result;
+    echo "El resultado de sumarlos es :".$result;
     
 }
 
