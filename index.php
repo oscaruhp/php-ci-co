@@ -30,7 +30,7 @@ echo "El resultado de la suma es:".$result;
       
     </div>
     
-    <input name="" id="" class="btn btn-danger" type="button" value="Sumar">
+    <input name="" id="" class="btn btn-danger" type="submit" value="Sumar">
 
     </form>    
 
