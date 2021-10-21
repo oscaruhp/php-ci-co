@@ -25,6 +25,7 @@ jobs:
         key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-php-
+    
 
     - name: Install dependencies
       run: composer install --prefer-dist --no-progress
@@ -34,3 +35,8 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
+    - name: PHPUnit tests
+      uses: php-actions/phpunit@v3
+      with:
+        configuration: custom/path/to/phpunit.xml
+        memory_limit: 256M
