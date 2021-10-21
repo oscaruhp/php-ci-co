@@ -1,4 +1,5 @@
 <?php 
+require 'vendor/autoload.php';
 use App\Classes\Calc;
 
 if($_POST){
@@ -6,6 +7,7 @@ if($_POST){
     $calc = new Calc();
     $result = $calc->sum(1, 2);
     echo "El resultado de la suma es:".$result;
+    
 }
 
 ?>
