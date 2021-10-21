@@ -11,7 +11,7 @@ class CalcTest extends TestCase
         
         $result = $calc->sum(1, 2);
 
-        $this->assertEquals(4, $result);
+        $this->assertEquals(3, $result);
     }
 }
 ?>
