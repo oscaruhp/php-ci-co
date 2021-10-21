@@ -3,6 +3,7 @@
     "name": "oscaruh/crudmvc",
     "description": "Demo php",
     "require": {
+        "php" : ">=7.4",
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
